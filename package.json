@@ -1,0 +1,17 @@
+{
+  "name": "2.raydium-detect",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@metaplex-foundation/js": "^0.20.1",
+    "@openbook-dex/openbook": "^0.0.9",
+    "@raydium-io/raydium-sdk": "^1.3.1-beta.54",
+    "@solana/web3.js": "^1.93.1"
+  }
+}
