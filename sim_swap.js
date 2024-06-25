@@ -48,11 +48,11 @@ const swap = async () => {
             marketProgramId: MAINNET_PROGRAM_ID.OPENBOOK_MARKET
         });
 
-        poolKeys.marketBaseVault = new PublicKey('5DbiGVcVEYWZaeFFm3nFbigSWKzuQcKPAN5ji7QzwVM3')
-        poolKeys.marketQuoteVault = new PublicKey('6MRZ3T3mm2bWa6T9dKE1BkTnjMiMEawwo5X3FjPuk9S4')
-        poolKeys.marketBids = new PublicKey('FLrENzFX7KUejtrEMT22DGhPbPPuudS3aE2R4yAkvq6m')
-        poolKeys.marketAsks = new PublicKey('ELXp8EKQqf44dcmXQ4hKPoBTXAqX16hThzz18ZzWhmmy')
-        poolKeys.marketEventQueue = new PublicKey('CJFdaTLMLVbkMnBgXs6wredc3WByi3h4h5cKEx6QCDCD')
+        poolKeys.marketBaseVault = new PublicKey('EBT4jYrzrDh61eaEQm15hued38XtHDZgCGa7ASZCKNNC')
+        poolKeys.marketQuoteVault = new PublicKey('5ZQGLVAcx7HzQaRhKwvBQRMHze5GCLw49SPpsbQvpump')
+        poolKeys.marketBids = new PublicKey('2VesYbQrRHrkmV7sEJgkyaj1AvmbjEYroapNcWgCpByS')
+        poolKeys.marketAsks = new PublicKey('AVUktC1UMssiuF3FpWo4Jb858zUYZ12QJ4tLg6LLCg4Z')
+        poolKeys.marketEventQueue = new PublicKey('H4Rt8QhoUm3pmCb91GvgNDUcwtT7aLnS5cLuhcS1B465')
 
         console.log('poolKeys', poolKeys)
 
